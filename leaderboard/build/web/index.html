@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Leaderboard</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="container pt-5" style="text-align: center;">
+        <button class="btn btn-primary" onclick="openPage('http://localhost:8088/leaderboard/stat')">
+            Xem bảng rank
+        </button>
+    </body>
+    <script>
+    function openPage(pageUrl) {
+        window.location.href = pageUrl;
+    }
+</script>
+</html>
